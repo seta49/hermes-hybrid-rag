@@ -133,27 +133,4 @@ Ingests custom raw documents into the local ChromaDB vector store.
 - **Web Search:** ddgs (DuckDuckGo Search)
 
 ---
-
-## 🧹 Step 8: File `.gitignore` (Penting sebelum push ke GitHub)
-
-Biar file-file temporary, *virtual environment*, dan database lokal nggak ikut ter-upload ke GitHub, buat file bernama `.gitignore` di root folder (`D:\PROJEK\hermes-hybrid-rag\.gitignore`):
-
-```gitignore
-# Virtual Environment
-venv/
-ENV/
-env/
-
-# Python Cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Vector DB Data & Local Storage
-chroma_data/
-.chroma/
-
-# IDE files
-.vscode/
-.idea/
 ```
