@@ -133,4 +133,3 @@ Ingests custom raw documents into the local ChromaDB vector store.
 - **Web Search:** ddgs (DuckDuckGo Search)
 
 ---
-```
